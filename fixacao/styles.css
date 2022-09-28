@@ -46,3 +46,26 @@
     padding: 20px;
     width: 100%;
   }
+
+  @media screen and (max-device-width: 480px) {
+    header {
+      text-align: center;
+    }
+    main {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin: 0;
+    }
+    aside, section{
+      width: 100%;
+      margin: 0;
+    }
+    footer {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
